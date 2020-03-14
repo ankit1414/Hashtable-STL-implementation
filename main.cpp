@@ -13,7 +13,7 @@ int main(){
     myhashtable.insert("rohit",70);
     myhashtable.insert("manish",492);
     myhashtable.erase("rohit");
-    myhashtable.print();
+    //myhashtable.print();
 
     auto ptr = myhashtable.search("mahesh");
     if(ptr != NULL){
